@@ -10,7 +10,7 @@ The second data set looks at US storm data.
 This data set only looks at storm data across the United States, including states affected and resulting damage from 2013-2020.
 (https://www.kaggle.com/datasets/atinakarim/noaa-severe-storm-database?select=Storms_2015.csv)
 
-We will be cleaning this data using Pandas in a Jupyter Notebook. The Weather Event data will be limited down to severe weather events from 2017-2020 and the storm data will be limited to those events occurring between 2017 and 2020 as well. The Data itself is expansive and must be limited to only those years for the sake of file size. The data itself is complete, but is much too broad and extensive for our purposes. The decision to limit the data to these 3 years only was made as a way to keep file sizes down and make the overall data more managable.
+We will be cleaning this data using Pandas in a Jupyter Notebook. The Weather Event data will be limited down to severe weather events from 2017-2020 and the storm data will be limited to those events occurring between 2017 and 2020 as well. The Data itself is expansive and must be limited to only those years for the sake of file size. The data itself is complete, but is much too broad and extensive for our purposes. The decision to limit the data to these 3 years only was made as a way to keep file sizes down and make the overall data more manageable.
 
 From here, the data will be loaded into MongoDB for search queries.
 
